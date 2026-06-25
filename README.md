@@ -279,3 +279,7 @@ Dataset: [Home Credit Default Risk](https://www.kaggle.com/c/home-credit-default
 (Kaggle competition, Home Credit Group). This project is for educational
 and portfolio purposes; it is not an approved or audited production
 credit-decisioning system.
+
+## Acknowledgments
+
+This project was developed as part of the Epsilon AI Program.
