@@ -1204,7 +1204,10 @@ def main() -> None:
         render_feature_importance_tab(importance_frame)
 
     with tab_eda:
-        render_eda_tab()
+        if st.button("Load EDA"):
+            render_eda_tab()
+        else:
+            st.info("EDA loading disabled until requested.")
 
     with tab_batch:
         render_batch_tab(model, selected_features, risk_threshold)
